@@ -9,3 +9,4 @@ else
     echo "Test FAILED: index.html not found"
     exit 1
 fi
+
