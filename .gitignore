@@ -1,0 +1,39 @@
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Jenkins temporary files
+
+*.jnlp
+
+# Environment files
+
+.env
+.env.*
+
+# Secrets
+
+*.pem
+*.key
+credentials.xml
+secrets/
+
+# Python cache (if added later)
+
+**pycache**/
+*.pyc
