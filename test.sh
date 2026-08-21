@@ -2,7 +2,7 @@
 
 echo "Running application test..."
 
-if [ -f app/index.html ]; then
+if [ -f app/wrong.html ]; then
     echo "Test PASSED: index.html exists"
     exit 0
 else
