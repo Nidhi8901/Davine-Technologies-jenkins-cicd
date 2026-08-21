@@ -24,6 +24,14 @@ pipeline {
                 sh './test.sh'
             }
         }
+
+        stage('Validation') {
+            steps {
+                echo 'Running validation...'
+                sh 'test -f app/index.html'
+                echo 'Validation passed: app/index.html exists.'
+            }
+        }
     }
 
     post {
